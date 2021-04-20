@@ -14,6 +14,7 @@ class Event:
         self.method = request.method
         self.query = request.args
         self.path = request.path
+        self.files = request.files
 
 class Context:
     def __init__(self):
